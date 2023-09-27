@@ -3,6 +3,7 @@ import pandas as pd
 st.title("Sentiment Analyser:")
 import nltk
 nltk.download("vader_lexicon")
+nltk.download("wordnet")
 
 from nltk.sentiment.vader import SentimentIntensityAnalyzer
 
