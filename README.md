@@ -11,7 +11,6 @@ In the era of information overload, understanding how people feel about a produc
 Before we begin, make sure you have NLTK installed. You can install it using pip:
     
     bash
-    Copy code
     pip install nltk
     
 ### Step 2: Importing the Necessary Libraries
@@ -19,7 +18,6 @@ Before we begin, make sure you have NLTK installed. You can install it using pip
  In your Python script, start by importing the required libraries:
 
     python
-    Copy code
     import nltk
     from nltk.sentiment.vader import SentimentIntensityAnalyzer
     nltk.download('vader_lexicon')
@@ -27,12 +25,17 @@ Before we begin, make sure you have NLTK installed. You can install it using pip
 ### Step 3: SentimentIntensityAnalyzer
 using analyzer library to get polarity scores then predict the Sentiment
 
-Based on,
+    Based on,
        Neural
        Positive
        Negative -Sentiments analysed
 ### Step 4: Deployment
 streamlit used for deployment 
+
+
+     python
+     import streamlit
+     streamlit run "path/file.py"
 ### Conclusion
 
 In this blog post, we've explored how to create a simple website sentiment analyzer using Python's NLTK library. Sentiment analysis can be a powerful tool for understanding public opinion, customer feedback, and more. However, keep in mind that this is a basic example, and more advanced techniques and models exist for more accurate sentiment analysis. Depending on your needs, you can further refine and expand upon this project to suit your specific use cases.
