@@ -1,0 +1,6 @@
+# This is a comment
+Flask==2.0.1
+requests>=2.25.0
+numpy
+pandas
+streamlit
