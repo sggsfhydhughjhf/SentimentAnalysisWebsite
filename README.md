@@ -41,3 +41,5 @@ streamlit used for deployment
 In this blog post, we've explored how to create a simple website sentiment analyzer using Python's NLTK library. Sentiment analysis can be a powerful tool for understanding public opinion, customer feedback, and more. However, keep in mind that this is a basic example, and more advanced techniques and models exist for more accurate sentiment analysis. Depending on your needs, you can further refine and expand upon this project to suit your specific use cases.
 
 Happy sentiment analysis! 📊📈
+
+website: https://sentimentanalysiswebsite-h6qneunj8hqzbiemkb5lia.streamlit.app/
